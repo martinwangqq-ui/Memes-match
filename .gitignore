@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Large folders or generated data
+llava_features/
+*.pt
+*.ckpt
+*.h5
+*.pkl
+
+# System files
+.DS_Store
+Thumbs.db

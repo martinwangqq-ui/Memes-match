@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>匹配结果</title>
+</head>
+<body style="font-family:sans-serif;">
+  <h2>匹配完成 ✅</h2>
+  <p><b>生成描述：</b> {{ result.caption }}</p>
+  <p><b>最相似 meme：</b> {{ result.match_name }}</p>
+  <p><b>相似度：</b> {{ result.score }}</p>
+
+  <h3>你的上传：</h3>
+  <img src="{{ result.user_image }}" width="300">
+
+  <h3>匹配的 Meme：</h3>
+  <img src="/static/memes/{{ result.match_name }}" width="300">
+</body>
+</html>
+
